@@ -27,4 +27,8 @@ MyFouthTest
 
 MyFifthTest
     [Tags]    smoke
-    Log    Second somke test
+    Log    Third somke test
+    
+MySixthTest
+    [Tags]    smoke
+    Log    Fouth somke test 

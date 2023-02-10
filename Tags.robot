@@ -31,4 +31,4 @@ MyFifthTest
     
 MySixthTest
     [Tags]    smoke
-    Log    Fouth somke test 
+    Log    Fourth smoke Test 

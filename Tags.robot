@@ -31,4 +31,4 @@ MyFifthTest
     
 MySixthTest
     [Tags]    smoke
-    Log    Fourth smoke Test 
+    Log    Sixth commit smoke Test 

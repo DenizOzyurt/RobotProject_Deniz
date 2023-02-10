@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.2 on win32)" generated="20230210 15:31:49.770" rpa="false" schemaversion="3">
+<suite id="s1" name="Tags" source="C:\Users\Pc\Desktop\source\RobotFramework\Tags.robot">
+<kw name="Log" library="BuiltIn" type="SETUP">
+<arg>I am inside Test Suite Setup</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230210 15:31:50.326" level="INFO">I am inside Test Suite Setup</msg>
+<status status="PASS" starttime="20230210 15:31:50.326" endtime="20230210 15:31:50.326"/>
+</kw>
+<test id="s1-t1" name="MySecondTest" line="16">
+<kw name="Log" library="BuiltIn" type="SETUP">
+<arg>I am Test Setup</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230210 15:31:50.329" level="INFO">I am Test Setup</msg>
+<status status="PASS" starttime="20230210 15:31:50.328" endtime="20230210 15:31:50.329"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>I am inside the second test</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230210 15:31:50.330" level="INFO">I am inside the second test</msg>
+<status status="PASS" starttime="20230210 15:31:50.330" endtime="20230210 15:31:50.330"/>
+</kw>
+<kw name="Set Tags" library="BuiltIn">
+<arg>regression1</arg>
+<doc>Adds given ``tags`` for the current test or all tests in a suite.</doc>
+<msg timestamp="20230210 15:31:50.332" level="INFO">Set tag 'regression1'.</msg>
+<status status="PASS" starttime="20230210 15:31:50.331" endtime="20230210 15:31:50.332"/>
+</kw>
+<kw name="Log" library="BuiltIn" type="TEARDOWN">
+<arg>I am Test Teardown</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230210 15:31:50.333" level="INFO">I am Test Teardown</msg>
+<status status="PASS" starttime="20230210 15:31:50.333" endtime="20230210 15:31:50.333"/>
+</kw>
+<tag>regression1</tag>
+<tag>sanity</tag>
+<status status="PASS" starttime="20230210 15:31:50.327" endtime="20230210 15:31:50.334"/>
+</test>
+<kw name="Log" library="BuiltIn" type="TEARDOWN">
+<arg>I am inside Test Suite Teardown</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230210 15:31:50.337" level="INFO">I am inside Test Suite Teardown</msg>
+<status status="PASS" starttime="20230210 15:31:50.336" endtime="20230210 15:31:50.337"/>
+</kw>
+<status status="PASS" starttime="20230210 15:31:49.773" endtime="20230210 15:31:50.337"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">regression1</stat>
+<stat pass="1" fail="0" skip="0">sanity</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Tags">Tags</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
